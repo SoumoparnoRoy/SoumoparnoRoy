@@ -25,24 +25,15 @@
 
 ## 🧭 &nbsp;About
 
-```dart
-class Soumoparno extends Developer {
-  @override
-  final String focus = 'Offline-first Flutter products';
+I build Flutter apps that hold up outside the demo — offline, on a bad network, on a mid-range Android phone.
 
-  @override
-  final List<String> principles = [
-    'Start from the user problem, not the widget tree',
-    'Keep Flutter out of the domain layer',
-    'Design for no signal, low memory, interrupted taps',
-    'Maintainable over clever',
-  ];
-
-  @override
-  Future<Product> build(Idea idea) async =>
-      idea.ship(whenNetworkFails: true);
-}
-```
+> **Start from the user's problem**, not the widget tree.
+>
+> **Keep Flutter out of the domain layer**, so the interesting parts stay testable without a device.
+>
+> **Design for no signal, low memory, interrupted taps** — real conditions, not the happy path.
+>
+> **Maintainable over clever.** I'll be the one reading it in six months.
 
 <br/>
 
@@ -174,12 +165,12 @@ A Flutter client and a Node/Express/MongoDB API in one monorepo.
 
 ## 🌱 &nbsp;Currently
 
-```yaml
-building:   polished Flutter products that survive real device constraints
-learning:   architecture patterns for apps that keep growing
-improving:  repositories documented well enough to read as case studies
-open_to:    Flutter roles, collaborations, and interesting mobile problems
-```
+| | |
+|---|---|
+| **Building** | Polished Flutter products that survive real device constraints |
+| **Learning** | Architecture patterns for apps that keep growing |
+| **Improving** | Repositories documented well enough to read as case studies |
+| **Open to** | Flutter roles, collaborations, and interesting mobile problems |
 
 <br/>
 
