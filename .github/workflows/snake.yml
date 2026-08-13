@@ -25,13 +25,14 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           # color_dots goes level 0 (no contributions) -> level 4 (most).
-          # Level 0 is #0D1117, GitHub's dark canvas, so empty cells vanish
-          # into the page instead of sitting on a light grid.
+          # Level 0 is #161B22 — the same tone GitHub uses for code blocks in
+          # dark mode, so empty cells read as a faint grid against the #0D1117
+          # page rather than disappearing entirely.
           # color_snake is deliberately off-palette so the snake reads
           # against the cyan trail rather than blending into it.
           outputs: |
-            dist/snake-dark.svg?palette=github-dark&color_snake=%23FF6B35&color_dots=%230D1117,%230B3A5C,%230F6FA8,%2313B9FD,%237FDBFF
-            dist/snake.svg?palette=github-dark&color_snake=%23FF6B35&color_dots=%230D1117,%230B3A5C,%230F6FA8,%2313B9FD,%237FDBFF
+            dist/snake-dark.svg?palette=github-dark&color_snake=%23FF6B35&color_dots=%23161B22,%230B3A5C,%230F6FA8,%2313B9FD,%237FDBFF
+            dist/snake.svg?palette=github-dark&color_snake=%23FF6B35&color_dots=%23161B22,%230B3A5C,%230F6FA8,%2313B9FD,%237FDBFF
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
