@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/31041365/README.md)
 ## Soumoparno Roy
 
 Flutter developer. I build mobile products that hold up outside the demo — offline, on a bad network, on a mid-range Android phone.
