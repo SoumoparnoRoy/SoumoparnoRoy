@@ -1,82 +1,50 @@
-# Hi, I'm Soumoparno Roy
+[README.md](https://github.com/user-attachments/files/31041365/README.md)
+## Soumoparno Roy
 
-I build thoughtful Flutter apps with a strong focus on product clarity, clean architecture, and real-world usability.
+Flutter developer. I build mobile products that hold up outside the demo — offline, on a bad network, on a mid-range Android phone.
 
-Right now, my work is centered on Dart, Flutter, offline-first mobile experiences, and practical app flows that solve everyday problems for students and digital users.
+![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white)
+![Riverpod](https://img.shields.io/badge/Riverpod-4B32C3)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
 
-## What I build
+---
 
-- Flutter apps with clean, maintainable architecture
-- Mobile products with offline-first behavior
-- Practical UI systems that prioritize usability over noise
-- Apps that turn messy everyday workflows into simple experiences
+### Projects
 
-## Current Focus
+**[Attend-It](https://github.com/SoumoparnoRoy/Attend-It)** — Offline-first attendance tracker for university students
 
-- Building polished Flutter products
-- Improving app architecture and state management
-- Designing user flows that feel fast, clear, and reliable
-- Shipping projects that look good and hold up in real use
+Answers one question: *how many classes can I still afford to miss?* A weekly class is stored as a rule, not a row per week, so a schedule engine expands rules into occurrences on demand — editing a rule reshapes every future week instantly and the database stays small. Dates are `yyyymmdd` integers and times are minutes since midnight, so nothing drifts with timezones or DST. Everything is local: no accounts, no server, no network calls.
 
-## Tech Stack
+The domain layer never imports Flutter, so 80 unit tests cover the schedule engine, the stats formulas, notification gating, and the light palette's contrast ratios — no device required.
 
-```text
-Languages: Dart
-Frameworks: Flutter
-State Management: Riverpod
-Local Data: SQLite
-Approach: Offline-first mobile development
-```
+`Flutter` · `Riverpod` · `SQLite` · `MIT`
 
-## Featured Projects
+---
 
-### Attend-It
-Offline-first Flutter app for tracking a university timetable and attendance.
+**[KursKart](https://github.com/SoumoparnoRoy/KursKart)** — Multi-store e-commerce, full stack
 
-Why it matters:
-- Helps students understand attendance at a glance
-- Calculates how many classes can still be missed safely
-- Prioritizes practical use over unnecessary complexity
+Flutter client and a Node/Express/MongoDB API in one monorepo, with JWT auth in `flutter_secure_storage` and bcrypt-hashed passwords. Checkout reserves stock with a conditional update per product, so simultaneous orders can't oversell; if any line fails, the reserved stock is released and the cart is left untouched. Order lines copy name, price, and image at purchase time, so editing a product later never rewrites past orders.
 
-Tech:
-- Flutter
-- Dart
-- Riverpod
-- SQLite
+The backend is split so the same Express app runs as a normal server and as a serverless function, with a cached Mongo connection shared across warm invocations. The API base URL is a `--dart-define`, not a hardcoded constant, and cleartext HTTP is permitted in debug builds only.
 
-Repo:
-- [Attend-It](https://github.com/SoumoparnoRoy/Attend-It)
+`Flutter` · `Riverpod` · `Node.js` · `Express` · `MongoDB` · `JWT` · [live](https://kurskart.vercel.app)
 
-### KursKart
-A Flutter project that reflects my interest in product-driven mobile development and solving focused user problems through simple app experiences.
+---
 
-Repo:
-- [KursKart](https://github.com/SoumoparnoRoy/KursKart)
+### How I work
 
-## How I like to build
+Start from the user's problem, not the widget tree. Keep business logic out of the UI and Flutter out of the domain layer, so the interesting parts stay testable. Design for real constraints — no signal, low memory, interrupted operations, a user who taps the same button twice. Prefer maintainable code over clever code.
 
-- Start with the user problem, not just the UI
-- Keep business logic clean and predictable
-- Prefer maintainable code over clever code
-- Design for real device constraints and imperfect conditions
-- Treat performance, reliability, and UX as part of the same job
+---
 
-## What I'm working toward
+### Currently
 
-- Stronger full-stack mobile product development
-- Better architecture patterns for growing apps
-- More polished public case-study style repositories
-- Open source work that reflects both engineering depth and product taste
+Deepening full-stack mobile work — architecture that survives a growing app, and repositories documented well enough to read as case studies.
 
-## GitHub Goals
+---
 
-I’m using GitHub as a place to document my growth as a developer through:
-
-- well-structured Flutter projects
-- cleaner READMEs and developer documentation
-- stronger project presentation
-- consistent public shipping
-
-## Let's connect
-
-- GitHub: [@SoumoparnoRoy](https://github.com/SoumoparnoRoy)
+[LinkedIn](https://www.linkedin.com/in/soumoparno-roy) · [GitHub](https://github.com/SoumoparnoRoy)
