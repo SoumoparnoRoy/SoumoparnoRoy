@@ -143,15 +143,15 @@ A Flutter client and a Node/Express/MongoDB API in one monorepo.
 ## 📊 &nbsp;GitHub Stats
 
 <!--
-  Cards are served from a self-hosted github-readme-stats instance.
-  The public one (github-readme-stats.vercel.app) is rate-limited and
-  returns broken images.
+  Cards are served from a self-hosted github-stats-extended instance
+  (release branch, own PAT). The public instances are rate-limited and
+  return broken images.
 -->
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats-kurse.vercel.app/api?username=SoumoparnoRoy&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&include_all_commits=true&count_private=true" alt="GitHub stats"/>
-<img width="40%" src="https://github-readme-stats-kurse.vercel.app/api/top-langs/?username=SoumoparnoRoy&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=6" alt="Top languages"/>
+<img width="49%" src="https://github-readme-stats-kurse.vercel.app/api?username=SoumoparnoRoy&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&include_all_commits=true&count_private=true&hide=stars,prs,issues,contribs&hide_rank=true" alt="GitHub stats"/>
+<img width="40%" src="https://github-readme-stats-kurse.vercel.app/api/top-langs/?username=SoumoparnoRoy&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=6&size_weight=0.5&count_weight=0.5" alt="Top languages"/>
 
 <br/>
 
