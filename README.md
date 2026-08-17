@@ -7,16 +7,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=13B9FD&center=true&vCenter=true&width=600&lines=Flutter+%C2%B7+Dart+%C2%B7+Riverpod+%C2%B7+SQLite;Apps+that+work+with+no+signal;Domain+logic+that+never+imports+Flutter;80+tests+and+no+device+required" alt="Flutter · Dart · Riverpod · SQLite" />
 </a>
 
-<br/>
-
-<a href="https://www.linkedin.com/in/soumoparno-roy">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="https://kurskart.vercel.app">
-  <img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live demo"/>
-</a>
-<img src="https://komarev.com/ghpvc/?username=SoumoparnoRoy&style=for-the-badge&color=13B9FD&label=PROFILE+VIEWS" alt="Profile views"/>
-
 </div>
 
 <br/>
