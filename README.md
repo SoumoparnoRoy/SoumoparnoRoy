@@ -153,9 +153,6 @@ A Flutter client and a Node/Express/MongoDB API in one monorepo.
 <img width="49%" src="https://github-readme-stats-kurse.vercel.app/api?username=SoumoparnoRoy&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&include_all_commits=true&count_private=true&hide=stars,prs,issues,contribs&hide_rank=true" alt="GitHub stats"/>
 <img width="40%" src="https://github-readme-stats-kurse.vercel.app/api/top-langs/?username=SoumoparnoRoy&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=6&size_weight=0.5&count_weight=0.5" alt="Top languages"/>
 
-<br/>
-
-<img width="60%" src="https://streak-stats.demolab.com?user=SoumoparnoRoy&theme=tokyonight&hide_border=true&background=0D1117" alt="Contribution streak"/>
 
 </div>
 
