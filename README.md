@@ -1,11 +1,21 @@
 <!-- ══════════════════════ HEADER ══════════════════════ -->
 <div align="center">
 
-<img width="100%" src="./assets/header.svg" alt="Soumoparno Roy — Flutter Developer, offline-first mobile products"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:02569B,100:13B9FD&height=200&section=header&text=Soumoparno%20Roy&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Flutter%20Developer%20%7C%20Offline-first%20mobile%20products&descAlignY=55&descSize=16" alt="header"/>
 
 <a href="https://github.com/SoumoparnoRoy">
-  <img src="./assets/typing.svg" alt="Flutter · Dart · Riverpod · SQLite" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=13B9FD&center=true&vCenter=true&width=600&lines=Flutter+%C2%B7+Dart+%C2%B7+Riverpod+%C2%B7+SQLite;Apps+that+work+with+no+signal;Domain+logic+that+never+imports+Flutter;80+tests+and+no+device+required" alt="Flutter · Dart · Riverpod · SQLite" />
 </a>
+
+<br/>
+
+<a href="https://www.linkedin.com/in/soumoparno-roy">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<a href="https://kurskart.vercel.app">
+  <img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live demo"/>
+</a>
+<img src="https://komarev.com/ghpvc/?username=SoumoparnoRoy&style=for-the-badge&color=13B9FD&label=PROFILE+VIEWS" alt="Profile views"/>
 
 </div>
 
@@ -118,7 +128,11 @@ A Flutter client and a Node/Express/MongoDB API in one monorepo.
 
 <div align="center">
 
-<img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/SoumoparnoRoy/SoumoparnoRoy/output/snake-dark.svg" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SoumoparnoRoy/SoumoparnoRoy/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SoumoparnoRoy/SoumoparnoRoy/output/snake.svg" />
+  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/SoumoparnoRoy/SoumoparnoRoy/output/snake.svg" />
+</picture>
 
 </div>
 
@@ -170,6 +184,6 @@ A Flutter client and a Node/Express/MongoDB API in one monorepo.
 
 <i>"Design for real device constraints and imperfect conditions."</i>
 
-<img width="100%" src="./assets/footer.svg" alt=""/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:13B9FD,100:02569B&height=120&section=footer" alt="footer"/>
 
 </div>
