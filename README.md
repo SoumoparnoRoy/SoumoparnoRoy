@@ -54,7 +54,7 @@ I build Flutter apps that hold up outside the demo — offline, on a bad network
 ## 🚀 &nbsp;Featured Projects
 
 <details open>
-<summary><b>📚 Attend-It</b> — <i>Know exactly how many classes you can afford to miss</i></summary>
+<summary><b>📚 Zeolite</b> — <i>Know exactly how many classes you can afford to miss</i></summary>
 
 <br/>
 
