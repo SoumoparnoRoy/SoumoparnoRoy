@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 210" width="800" height="210" role="img" aria-label="Soumoparno Roy. Flutter, Kotlin, Node.js, Firebase. Android apps that work offline and sync when they can">
+<title>Soumoparno Roy. Flutter, Kotlin, Node.js, Firebase. Android apps that work offline and sync when they can</title>
+<style>
+.d1{animation:d1 18s ease-in-out infinite}.d2{animation:d2 22s ease-in-out infinite}.d3{animation:d3 16s ease-in-out infinite}
+@keyframes d1{50%{transform:translate(120px,0)}}
+@keyframes d2{50%{transform:translate(-120px,0)}}
+@keyframes d3{50%{transform:translate(0,63px)}}
+@media (prefers-reduced-motion:reduce){.d1,.d2,.d3{animation:none}}
+</style>
+<defs>
+<clipPath id="c"><rect width="800" height="210" rx="14"/></clipPath>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+<filter id="soft"><feGaussianBlur stdDeviation="6"/></filter>
+<linearGradient id="gf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.62"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.28"/></linearGradient>
+<linearGradient id="gs" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="1"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.5"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.9"/></linearGradient>
+</defs>
+<g clip-path="url(#c)">
+<rect width="800" height="210" fill="#eef3f9"/>
+<g filter="url(#blur)">
+<circle class="d1" cx="160" cy="84" r="126" fill="#8fd0ff" opacity="1"/>
+<circle class="d2" cx="600" cy="126" r="115.5" fill="#7fe0d6" opacity="1"/>
+<circle class="d3" cx="400" cy="21" r="84" fill="#c3b4ff" opacity="0.9"/>
+</g>
+<rect x="24" y="24" width="752" height="162" rx="22" fill="url(#gf)" stroke="url(#gs)" stroke-width="1.2"/><rect x="23.5" y="23.5" width="753" height="163" rx="22.5" fill="none" stroke="#0f1e3c" stroke-opacity="0.1"/><ellipse cx="287.2" cy="30" rx="210.56" ry="5" fill="#ffffff" opacity="0.8" filter="url(#soft)"/><text x="56" y="94" fill="#0d1117" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="40" font-weight="700">Soumoparno Roy</text>
+<text x="56" y="128" fill="#0b6fa4" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="16">Flutter · Kotlin · Node.js · Firebase</text>
+<text x="56" y="160" fill="#3b4654" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15">Android apps that work offline and sync when they can</text>
+<g transform="translate(596 58)"><rect x="0" y="0" width="48" height="24" rx="7" fill="#0b6fa4" fill-opacity="0.12" stroke="#0f1e3c" stroke-opacity="0.15"/><rect x="56" y="0" width="48" height="24" rx="7" fill="#0b6fa4" fill-opacity="0.25" stroke="#0f1e3c" stroke-opacity="0.15"/><rect x="112" y="0" width="48" height="24" rx="7" fill="#0b6fa4" fill-opacity="0.5" stroke="#0f1e3c" stroke-opacity="0.15"/><rect x="0" y="32" width="104" height="24" rx="7" fill="#0b6fa4" fill-opacity="0.25" stroke="#0f1e3c" stroke-opacity="0.15"/><rect x="112" y="32" width="48" height="24" rx="7" fill="#0b6fa4" fill-opacity="0.12" stroke="#0f1e3c" stroke-opacity="0.15"/><rect x="0" y="64" width="48" height="24" rx="7" fill="#0b6fa4" fill-opacity="0.5" stroke="#0f1e3c" stroke-opacity="0.15"/><rect x="56" y="64" width="104" height="24" rx="7" fill="#0b6fa4" fill-opacity="0.12" stroke="#0f1e3c" stroke-opacity="0.15"/></g>
+</g>
+</svg>
