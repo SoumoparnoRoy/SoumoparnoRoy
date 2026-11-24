@@ -5,16 +5,16 @@
 
 I build Android apps in Flutter, with native Kotlin where Flutter can't reach and Node.js on the server.
 
-**Currently:** taking Zeolite from closed testing to its Play Store release, and open to Flutter internships.
+**Currently:** Zeolite is out on the Play Store, and I'm open to Flutter internships.
 
 **Stack:** Flutter, Dart, Riverpod, Kotlin · Node.js, Express, MongoDB · Firebase (Auth, Firestore, App Check, Crashlytics), SQLite · Maestro
 
 ## Projects
 
-<a href="https://github.com/SoumoparnoRoy/Zeolite">
+<a href="https://play.google.com/store/apps/details?id=com.soumoparno.zeolite">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/zeolite-dark.svg">
-  <img src="assets/zeolite-light.svg" width="100%" alt="Zeolite, 1.1.0, Closed Testing">
+  <img src="assets/zeolite-light.svg" width="100%" alt="Zeolite, Live on Play Store">
 </picture>
 </a>
 
@@ -26,7 +26,7 @@ Timetable and attendance tracker for Android. It works with no signal and tells 
 - Home-screen widgets in Kotlin
 - 1,359 Flutter, 59 server and 14 security-rules tests; 8 Maestro device flows
 
-[Repository](https://github.com/SoumoparnoRoy/Zeolite) · To join the closed test, email [zeolite.help@gmail.com](mailto:zeolite.help@gmail.com)
+[Play Store](https://play.google.com/store/apps/details?id=com.soumoparno.zeolite) · [Repository](https://github.com/SoumoparnoRoy/Zeolite)
 
 <a href="https://github.com/SoumoparnoRoy/KursKart">
 <picture>
